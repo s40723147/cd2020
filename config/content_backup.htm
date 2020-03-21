@@ -43,8 +43,8 @@
 <p><span style="background-color: #00ffff;">類似JavaScript</span>，<span style="background-color: #00ffff;">Dart也是一種物件導向語言</span>，但是它採用類別為基的程式設計。它</p>
 <p>只允許單一繼承，<span style="background-color: #00ffff;">語法風格接近C語言</span>。</p>
 <p>參考資料:<a href="https://zh.wikipedia.org/zh-tw/Dart">https://zh.wikipedia.org/zh-tw/Dart</a></p>
-<p><span color="#333333" style="color: #333333;"><span style="background-color: #ffff99;"><b>python</b></span></span></p>
-<p><span color="#333333" style="color: #333333;"><br/>是一種<span style="background-color: #00ffff;">廣泛使用</span>的直譯式、進階程式、通用型程式語言，由吉多·范羅蘇姆創造，第</span></p>
+<p><span color="#333333" style="color: #333333;"><span style="background-color: #ffff99;"><b>python</b></span></span><span color="#333333" style="color: #333333;"><br/></span></p>
+<p><span color="#333333" style="color: #333333;">是一種<span style="background-color: #00ffff;">廣泛使用</span>的直譯式、進階程式、通用型程式語言，由吉多·范羅蘇姆創造，第</span></p>
 <p><span color="#333333" style="color: #333333;">一版釋出於1991年。可以視之為一種改良（加入一些其他程式語言的優點，如物件</span></p>
 <p><span color="#333333" style="color: #333333;">導向）的LISP。<span style="background-color: #00ffff;">Python的設計哲學強調代碼的可讀性和簡潔的語法</span>（尤其</span></p>
 <p><span color="#333333" style="color: #333333;">是使用空格縮排劃分代碼塊，而非使用大括號或者關鍵詞）。相比於C++或Java，</span></p>
@@ -52,9 +52,65 @@
 <p><span color="#333333" style="color: #333333;">試圖讓程式的結構清晰明瞭。</span></p>
 <p>參考資料:<a href="https://zh.wikipedia.org/zh-tw/Python">https://zh.wikipedia.org/zh-tw/Python</a></p>
 <p><span style="background-color: #000000; color: #ffffff;">----------------------------------------------------------------------------------------------------------------</span></p>
-<div><span style="color: #ffffff; background-color: #00ff00;"></span></div>
-<div><span style="color: #ffffff; background-color: #00ff00;"></span></div>
-<div><span style="color: #ffffff; background-color: #00ff00;"></span></div>
-<div><span style="color: #ffffff; background-color: #00ff00;"></span></div>
+<p><span style="background-color: #000000; color: #ffffff;"></span></p>
+<h1>亂數分組</h1>
+<p>亂數分組<span style="background-color: #ffcc00;">python程式</span>-甲班</p>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import random
+groupList=[['40723104', '40723107', '40723114', '40723115', '40723118', '40723122', '40723123', '40723140', '40723149', '40723151', '40723153', '40723154', '40723155', '40623143', '40723108', '40723127', '40723132', '40723133', '40723137', '40723141', '40723143', '40723144', '40723147', '40723148', '40723150', '40723103', '40723110', '40723112', '40723120', '40723125', '40723126', '40723128', '40723130', '40723139', '40723142', '40723145', '40723146', '40423155', '40723101', '40723102', '40723106', '40723111', '40723119', '40723121', '40723124', '40723134', '40723135', '40723136', '40723138']]
+
+group=groupList[0]
+#將group數列隨機排列
+random.shuffle(group)
+#列印數列
+print(group)
+#列印數列(1~12)
+print(group[0:12])
+#列印數列(13~24)
+print(group[12:24])
+#列印數列(25~36)
+print(group[24:36])
+#列印數列(37~49)
+print(group[36:49])</pre>
+<p><span style="background-color: #000000; color: #ffffff;"></span>使用python編寫亂數分組程式</p>
+<p>[Python]-隨機random函數</p>
+<div>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">import random</pre>
+<span style="color: #ffffff; background-color: #00ff00;"><br/></span>匯入 <span>隨機random函數</span></div>
+<div><span></span></div>
+<div>
+<pre class="brush:py;auto-links:false;toolbar:false;first-line:5" contenteditable="false">groupList=[['40723104', '40723107', '40723114', '40723115', '40723118', '40723122', '40723123', '40723140', '40723149', '40723151', '40723153', '40723154', '40723155', '40623143', '40723108', '40723127', '40723132', '40723133', '40723137', '40723141', '40723143', '40723144', '40723147', '40723148', '40723150', '40723103', '40723110', '40723112', '40723120', '40723125', '40723126', '40723128', '40723130', '40723139', '40723142', '40723145', '40723146', '40423155', '40723101', '40723102', '40723106', '40723111', '40723119', '40723121', '40723124', '40723134', '40723135', '40723136', '40723138']]</pre>
+</div>
+<div>定義 groupList=所有修課學生 共49位</div>
 <div></div>
+<div>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">group=groupList[0]</pre>
+</div>
+<div>設定變數group=groupList[0] </div>
+<div></div>
+<div>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">random.shuffle(group)</pre>
+</div>
+<div><span style="color: #ffffff;"><span style="color: #000000;">使用 random.shuffle</span><br/><br/><span style="color: #000000;">主要運用在將函數中的順序</span>打亂</span></div>
+<div><span style="color: #ffffff;"></span></div>
 <div><span style="color: #ffffff; background-color: #00ff00;"></span></div>
+<div>將函數(<span>group)的順序打亂</span></div>
+<div><span></span></div>
+<div>
+<pre class="brush:py;auto-links:false;toolbar:false" contenteditable="false">#列印數列
+print(group)
+#列印數列(1~12)
+print(group[0:12])
+#列印數列(13~24)
+print(group[12:24])
+#列印數列(25~36)
+print(group[24:36])
+#列印數列(37~49)
+print(group[36:49])</pre>
+<span><br/></span></div>
+<div><span style="color: #000000;"></span></div>
+<div><span style="color: #000000;">print 列印運用</span></div>
+<div><span style="color: #000000;"><br/><br/>參考資料:<a href="https://nkust.gitbook.io/python/untitled">https://nkust.gitbook.io/python/untitled</a></span></div>
+<div><span style="color: #000000;"></span></div>
+<div><span style="color: #000000; background-color: #ffff00;">測試1</span></div>
+<div><span style="color: #000000;"><img alt="" height="231" src="/images/範例1.png" width="1552"/></span></div>
+<div><span style="color: #000000;"></span></div>
