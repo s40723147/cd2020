@@ -54,7 +54,10 @@
 <p><span><span>注意客端IP必須與電腦網路連線IP一致才可連接</span></span></p>
 <h4><strong>cmsimde</strong></h4>
 <p>1.如何更新<span>submodule下的</span>子模組</p>
-<p>2.<span>如何將submodule下的子模組刪除</span></p><h1>課堂筆記</h1>
+<p>2.<span>如何將submodule下的子模組刪除</span></p>
+<hr/><hr/>
+<p></p>
+<h1>課堂筆記</h1>
 <p>將紀錄40723147 在CD2020當周課堂筆記</p>
 <hr/>
 <h4><span style="background-color: #0000ff; color: #ccffcc;"><strong>w2</strong></span></h4>
@@ -139,7 +142,8 @@
 <p><span><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/PPZ3KhAx33s" width="500"></iframe></span></p>
 <p><span>參考資料:<a href="https://blog.csdn.net/guotianqing/article/details/82391665">https://blog.csdn.net/guotianqing/article/details/82391665</a></span></p>
 <hr/><hr/>
-<p></p><h1>Assignment</h1>
+<p></p>
+<h1>Assignment</h1>
 <h2>Assignment 1</h2>
 <h4>亂數分組</h4>
 <h4><strong><a href="https://github.com/s40723147/cd2020/blob/master/PDF/cd2020%20ag2%20Project%201%20%E4%BA%82%E6%95%B8%E5%88%86%E7%B5%84.pdf">pdf連結</a></strong></h4>
@@ -391,5 +395,33 @@ print(group[36:49])</pre>
 <p><span><img alt="" height="391" src="/images/未命名.png" width="337"/></span></p>
 <p>操作影片:</p>
 <p><iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/ZVEqJiweTdk" width="400"></iframe></p>
-</div>
-</div></div>
+<h2>Ubuntu 20.04 Virtualbox</h2>
+<h4>在Virtualbox中的網路設定以及<span>Port號設定</span></h4>
+<p><strong>1.設定網路連線</strong></p>
+<p><span>至/etc/netplan目錄下新建00-installer-config.yaml檔案</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/netplan
+sudo vi 00-installer-config.yaml</pre>
+<p><span>當中內容如下:</span></p>
+<p><span><img alt="" height="291" src="/images/VirtualBox_2020-06-03_12-28-05.png" width="400"/></span></p>
+<p>將對應為IPv6下的狀態</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">	
+sudo netplan apply</pre>
+<p><span></span>完成後需進行更新</p>
+<p>至<span>/etc/apt/apt.conf.d 目錄下新增proxy.conf設定檔案</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd /etc/apt/apt.conf.d
+sudo vi proxy.conf</pre>
+<p><span>當中內容如下:</span></p>
+<p><span><img alt="" height="269" src="/images/VirtualBox_2020-06-03_12-27-43.png" width="400"/></span></p>
+<p><span>需對應電腦所連結之proxy號</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">sudo apt update</pre>
+<p>更新apt的內容<br/><br/></p>
+<p><strong>2.Virtualbox中的Port號設定</strong></p>
+<p>IPv4下的Port號設定</p>
+<p><img alt="" height="364" src="/images/VirtualBox_2020-06-03_12-26-56.png" width="0500"/></p>
+<p>19999為CoppeliaSim對應的RemoteAPI</p>
+<p><span></span>22為對外Putty的設定</p>
+<p>7443、9443 為網站對應port號</p>
+<p>IPv6下的Port號設定</p>
+<p><img alt="" height="364" src="/images/VirtualBox_2020-06-03_12-27-02.png" width="500"/></p>
+<p>注意客端IP位置需對應在ifconfig中查詢到的號碼對應</p>
+<p><span>ifconfig的運用可參考</span></p></div></div></div>
