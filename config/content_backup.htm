@@ -56,8 +56,9 @@
 <p>1.如何更新<span>submodule下的</span>子模組</p>
 <p>2.<span>如何將submodule下的子模組刪除</span></p>
 <hr/><hr/>
-<p></p>
-<h1>課堂筆記</h1>
+<h4><span style="background-color: #99cc00; color: #000000;"><strong>week14</strong></span></h4>
+<h4>VirtualBox的網路與port號設定</h4>
+<p><span style="background-color: #99cc00; color: #000000;"></span></p><h1>課堂筆記</h1>
 <p>將紀錄40723147 在CD2020當周課堂筆記</p>
 <hr/>
 <h4><span style="background-color: #0000ff; color: #ccffcc;"><strong>w2</strong></span></h4>
@@ -424,4 +425,21 @@ sudo vi proxy.conf</pre>
 <p>IPv6下的Port號設定</p>
 <p><img alt="" height="364" src="/images/VirtualBox_2020-06-03_12-27-02.png" width="500"/></p>
 <p>注意客端IP位置需對應在ifconfig中查詢到的號碼對應</p>
-<p><span>ifconfig的運用可參考</span></p></div></div></div>
+<p><span>ifconfig的運用可參考<a href="https://s40723147.github.io/cd2020/content/week.html">對應連結</a>中的week13</span></p>
+<p><strong>3.開啟虛擬主機中的cd2020pj1對應網站</strong></p>
+<p><span>進入目錄/tmp/cd2020pj1/docs/cmsimde中的wsgi.py檔案</span></p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">cd tmp/cd2020pj1/docs/cmsimde
+vi wsgi.py</pre>
+<p>更改其內容的host號碼</p>
+<p><img caption="false" height="364" src="/images/VirtualBox_2020-06-03_12-26-34.png" width="500"/></p>
+<p>完成後可輸入</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">python3 wsgi.py</pre>
+<p>來啟動對應的網站</p>
+<p><img alt="" height="336" src="/images/VirtualBox_2020-06-03_12-26-09.png" width="500"/></p>
+<p>取到對應連結後進入虛擬主機的Firefox開啟連結完成內部連線</p>
+<p><img alt="" height="364" src="/images/VirtualBox_2020-06-03_12-25-44.png" width="500"/></p>
+<p>外部開啟連結為</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">https://[2001:288:6004:17:2020:1::7147]:19443</pre>
+<p>為當初之設定port號有所對應</p>
+<p><img alt="" height="271" src="/images/chrome_2020-06-03_12-24-28.png" width="500"/></p>
+<p>不過無法連接需要再加以研究</p></div></div></div>
