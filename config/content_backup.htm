@@ -58,7 +58,13 @@
 <hr/><hr/>
 <h4><span style="background-color: #99cc00; color: #000000;"><strong>week14</strong></span></h4>
 <h4>VirtualBox的網路與port號設定</h4>
-<p><span style="background-color: #99cc00; color: #000000;"></span></p><h1>課堂筆記</h1>
+<p><span style="color: #000000;">1.設定網路連線</span></p>
+<p><span style="color: #000000;"><br/>2.Virtualbox中的Port號設定</span></p>
+<p><span style="color: #000000;"><br/>3.開啟虛擬主機中的cd2020pj1對應網站</span></p>
+<p><span style="color: #000000;">對應連結:</span></p>
+<p><span style="color: #000000;"><a href="https://s40723147.github.io/cd2020/content/Ubuntu%2020.04%20Virtualbox.html">https://s40723147.github.io/cd2020/content/Ubuntu%2020.04%20Virtualbox.html</a></span></p>
+<hr/><hr/>
+<p></p><h1>課堂筆記</h1>
 <p>將紀錄40723147 在CD2020當周課堂筆記</p>
 <hr/>
 <h4><span style="background-color: #0000ff; color: #ccffcc;"><strong>w2</strong></span></h4>
@@ -442,4 +448,23 @@ vi wsgi.py</pre>
 <pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">https://[2001:288:6004:17:2020:1::7147]:19443</pre>
 <p>為當初之設定port號有所對應</p>
 <p><img alt="" height="271" src="/images/chrome_2020-06-03_12-24-28.png" width="500"/></p>
-<p>不過無法連接需要再加以研究</p></div></div></div>
+<p>不過無法連接需要再加以研究</p>
+<h3>問題解決</h3>
+<p>解決外部無法連結之問題</p>
+<p>在上堂課中遇到了外部無法連結之問題</p>
+<p>本周進行問題分析探討</p>
+<p>1.進入VirtualBox→檔案<span>→偏好設定→設定Port號</span></p>
+<p><span><img alt="" height="272" src="/images/InkedVirtualBox_2020-06-10_11-26-01_LI.jpg" width="400"/></span></p>
+<p><img alt="" height="366" src="/images/VirtualBox_2020-06-10_11-25-42.png" width="400"/></p>
+<p><img alt="" height="325" src="/images/VirtualBox_2020-06-10_11-24-31.png" width="500"/></p>
+<p>確認主體IP 也就是外部的連結設定</p>
+<p>上周因將主體IP 設為</p>
+<pre class="brush:html;auto-links:false;toolbar:false" contenteditable="false">2001:288:6004:17:2020:0:1:7147</pre>
+<p>故無法開啟連結</p>
+<p>對應的主體IP設定錯誤 0 ， 1 位置需對調</p>
+<p>2.檢查電腦的IPv6網路設定</p>
+<p><img alt="" height="411" src="/images/dllhost_2020-06-10_11-28-50.png" width="500"/></p>
+<p>3.檢查內部是否可以連結上</p>
+<p><img alt="" height="294" src="/images/VirtualBox_2020-06-10_11-25-33.png" width="500"/></p>
+<p>4.再次檢查外部是否可以連結</p>
+<p><img alt="" height="271" src="/images/chrome_2020-06-10_11-23-14.png" width="500"/></p></div></div></div>
