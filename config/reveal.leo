@@ -18,8 +18,26 @@
 <v t="leo.20180902120523.6"><vh>body</vh>
 <v t="leo.20180902120523.7"><vh>reveal div</vh>
 <v t="leo.20180902120523.8"><vh>slides div</vh>
-<v t="leo.20180902120523.9"><vh>封面投影片</vh>
-<v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
+<v t="leo.20180902120523.9"><vh>期末內容簡報</vh>
+<v t="leo.20180902120523.10"><vh>標籤頁</vh></v>
+</v>
+<v t="leo.20200617175652.1"><vh>期末1</vh>
+<v t="leo.20200617175652.2"><vh>1</vh></v>
+</v>
+<v t="leo.20200617180741.1"><vh>期末2</vh>
+<v t="leo.20200617180741.2"><vh>2</vh></v>
+</v>
+<v t="leo.20200617180941.1"><vh>期末3</vh>
+<v t="leo.20200617180941.2"><vh>3</vh></v>
+</v>
+<v t="leo.20200617181536.1"><vh>期末4</vh>
+<v t="leo.20200617181536.2"><vh>4</vh></v>
+</v>
+<v t="leo.20200617182823.1"><vh>期末5</vh>
+<v t="leo.20200617182823.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200617175354.1"><vh>封面投影片</vh>
+<v t="leo.20200617175354.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20200317212320.1"><vh>1</vh>
 <v t="leo.20200317212320.2"><vh>投影片內容</vh></v>
@@ -60,11 +78,11 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CD2020 AG4 亂數分組
+<t tx="leo.20180902120523.10">## CD2020 40723147 期末成果
 
 
 &lt;small&gt;
- [40723147](https://github.com/s40723147/cd2020)
+ By[40723147](https://github.com/s40723147/cd2020)
 &lt;/small&gt;
 
 
@@ -464,5 +482,139 @@ print(group[36:49])
 主要運用在將函數中的順序打亂
 * 使用 print 列印                  
 分段列印打亂的數列</t>
+<t tx="leo.20200617175354.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617175354.2">## CD2020 AG2 亂數分組
+
+
+&lt;small&gt;
+ [40723147](https://github.com/s40723147/cd2020)
+&lt;/small&gt;
+
+
+
+</t>
+<t tx="leo.20200617175652.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617175652.2">## 亂數分組
+
+* 隨機random函數
+
+```
+@language python
+import random
+groupList=[['40723104', '40723107', '40723114', '40723115', '40723118', '40723122', '40723123', '40723140', '40723149', '40723151', '40723153', '40723154', '40723155', '40623143', '40723108', '40723127', '40723132', '40723133', '40723137', '40723141', '40723143', '40723144', '40723147', '40723148', '40723150', '40723103', '40723110', '40723112', '40723120', '40723125', '40723126', '40723128', '40723130', '40723139', '40723142', '40723145', '40723146', '40423155', '40723101', '40723102', '40723106', '40723111', '40723119', '40723121', '40723124', '40723134', '40723135', '40723136', '40723138']]
+ 
+group=groupList[0]
+#將group數列隨機排列
+random.shuffle(group)
+#列印數列
+print(group)
+#列印數列(1~12)
+print(group[0:12])
+#列印數列(13~24)
+print(group[12:24])
+#列印數列(25~36)
+print(group[24:36])
+#列印數列(37~49)
+print(group[36:49])
+```
+
+</t>
+<t tx="leo.20200617180741.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617180741.2">## 運用PYTHON建立亂數分組程序
+* 使用 random.shuffle
+
+主要運用在將函數中的順序打亂
+* 使用 print 列印                  
+分段列印打亂的數列</t>
+<t tx="leo.20200617180941.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617180941.2">## 持續進步
+
+&lt;small&gt;
+1.可更進一步的對話視窗 
+&lt;/small&gt;
+
+&lt;small&gt;
+2.網頁的程序運用  
+&lt;/small&gt;
+
+&lt;small&gt;
+ 3.在網頁上抓取資料 
+&lt;/small&gt;
+
+&lt;small&gt;
+4.資料庫存取  
+&lt;/small&gt;</t>
+<t tx="leo.20200617181536.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617181536.2">## 電子書重點整理
+  &lt;head&gt;  
+  &lt;font size="5"&gt;Industrial And EngineeringProduct DesignCollaboration&lt;/font&gt;    
+  
+  &lt;font size="7"&gt;工業和工程產品-設計協同&lt;/font&gt;   
+  &lt;font size="4"&gt;工程設計師使用 &lt;font color="green"&gt;“從功能到外觀開發的外向方法”&lt;/font&gt;   ，而工業設計師則採用&lt;/font&gt;&lt;font size="4"&gt;&lt;font color="green"&gt;“從外觀到功能開發的內向方法”&lt;/font&gt;   
+
+    &lt;font size="5"&gt;&lt;font color="red"&gt;““協作產品設計”&lt;/font&gt;  &lt;font size="4"&gt;是指通過工業設計和工程設計的共同貢獻而創建的產品設計。 &lt;/font&gt;   
+  &lt;/head&gt;</t>
+<t tx="leo.20200617182823.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200617182823.2">&lt;head&gt;  
+  &lt;font size="7"&gt;Project One&lt;/font&gt;    
+&lt;/head&gt;
+  * onshape&lt;/font&gt;    
+  
+  * CoppeliaSim&lt;/font&gt;    
+ 
+  * Remote API&lt;/font&gt;    
+ 
+  * Google + Domain API&lt;/font&gt;    
+ 
+  * Virtualbox&lt;/font&gt;    
+</t>
 </tnodes>
 </leo_file>
