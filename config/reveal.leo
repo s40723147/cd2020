@@ -90,9 +90,6 @@
 <v t="leo.20200428230212.1"><vh>5</vh>
 <v t="leo.20200428230212.2"><vh>5</vh></v>
 </v>
-<v t="leo.20200623160920.1"><vh>6</vh>
-<v t="leo.20200623160920.2"><vh>5</vh></v>
-</v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
@@ -700,16 +697,6 @@ print(group[36:49])
 &lt;/small&gt;
 
 </t>
-<t tx="leo.20200623160920.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20200623160920.2">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/TCaM1Tl01lQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</t>
 <t tx="leo.20200623161038.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
