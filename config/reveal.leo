@@ -21,6 +21,9 @@
 <v t="leo.20180902120523.9"><vh>期末內容簡報</vh>
 <v t="leo.20180902120523.10"><vh>標籤頁</vh></v>
 </v>
+<v t="leo.20200623154930.1"><vh>期末內容簡報標題</vh>
+<v t="leo.20200623154930.2"><vh>標籤頁</vh></v>
+</v>
 <v t="leo.20200617175652.1"><vh>期末1</vh>
 <v t="leo.20200617175652.2"><vh>1</vh></v>
 </v>
@@ -35,6 +38,39 @@
 </v>
 <v t="leo.20200617182823.1"><vh>期末5</vh>
 <v t="leo.20200617182823.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623161038.1"><vh>期末6</vh>
+<v t="leo.20200623161038.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623161607.1"><vh>期末7</vh>
+<v t="leo.20200623161607.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623162138.1"><vh>期末8</vh>
+<v t="leo.20200623162138.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623162750.1"><vh>期末9</vh>
+<v t="leo.20200623162750.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623163039.1"><vh>期末10</vh>
+<v t="leo.20200623163039.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623164129.1"><vh>期末11</vh>
+<v t="leo.20200623164129.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623164511.1"><vh>期末12</vh>
+<v t="leo.20200623164511.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623164907.1"><vh>期末13</vh>
+<v t="leo.20200623164907.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623165053.1"><vh>期末14</vh>
+<v t="leo.20200623165053.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623165658.1"><vh>期末15</vh>
+<v t="leo.20200623165658.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623165941.1"><vh>期末16</vh>
+<v t="leo.20200623165941.2"><vh>5</vh></v>
 </v>
 <v t="leo.20200617175354.1"><vh>封面投影片</vh>
 <v t="leo.20200617175354.2"><vh>封面投影片內容</vh></v>
@@ -53,6 +89,9 @@
 </v>
 <v t="leo.20200428230212.1"><vh>5</vh>
 <v t="leo.20200428230212.2"><vh>5</vh></v>
+</v>
+<v t="leo.20200623160920.1"><vh>6</vh>
+<v t="leo.20200623160920.2"><vh>5</vh></v>
 </v>
 <v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
@@ -549,7 +588,11 @@ print(group[36:49])
 
 主要運用在將函數中的順序打亂
 * 使用 print 列印                  
-分段列印打亂的數列</t>
+分段列印打亂的數列
+
+&lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/Assignment%201.html)
+&lt;/small&gt;</t>
 <t tx="leo.20200617180941.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -593,7 +636,14 @@ print(group[36:49])
   &lt;font size="4"&gt;工程設計師使用 &lt;font color="green"&gt;“從功能到外觀開發的外向方法”&lt;/font&gt;   ，而工業設計師則採用&lt;/font&gt;&lt;font size="4"&gt;&lt;font color="green"&gt;“從外觀到功能開發的內向方法”&lt;/font&gt;   
 
     &lt;font size="5"&gt;&lt;font color="red"&gt;““協作產品設計”&lt;/font&gt;  &lt;font size="4"&gt;是指通過工業設計和工程設計的共同貢獻而創建的產品設計。 &lt;/font&gt;   
-  &lt;/head&gt;</t>
+
+  &lt;font size="5"&gt;從文章了解協同設計產品開發的流程經過，去探討未來對此專案的發展以及可行性‧&lt;/font&gt;    
+  
+ &lt;/head&gt;
+  
+  &lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/Assignment%202.html)
+&lt;/small&gt;</t>
 <t tx="leo.20200617182823.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -604,7 +654,7 @@ print(group[36:49])
 						
 </t>
 <t tx="leo.20200617182823.2">&lt;head&gt;  
-  &lt;font size="7"&gt;Project One&lt;/font&gt;    
+  &lt;font size="7"&gt;Assignment 3機電整合專案項目&lt;/font&gt;    
 &lt;/head&gt;
   * onshape&lt;/font&gt;    
   
@@ -615,6 +665,309 @@ print(group[36:49])
   * Google + Domain API&lt;/font&gt;    
  
   * Virtualbox&lt;/font&gt;    
+</t>
+<t tx="leo.20200623154930.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623154930.2">&lt;head&gt;
+ Assignment 1
+&lt;/head&gt;
+
+&lt;small&gt;
+隨機亂數分組
+&lt;/small&gt;
+
+&lt;head&gt;
+ Assignment 2
+&lt;/head&gt;
+
+&lt;small&gt;
+了解協同設計產品開發及模擬的必須性，與所需具備‧
+&lt;/small&gt;
+
+&lt;head&gt;
+ Assignment 3
+&lt;/head&gt;
+
+&lt;small&gt;
+完成機電整合專案項目 四輪小車可藉由遠端進行操控
+&lt;/small&gt;
+
+</t>
+<t tx="leo.20200623160920.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623160920.2">&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/TCaM1Tl01lQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200623161038.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623161038.2">&lt;head&gt;  
+  &lt;font size="7"&gt;onshape&lt;/font&gt;    
+  
+  &lt;font size="5"&gt;在網際onshape中進行零組件建繪製，可藉由網際協同創造出模型，&lt;/font&gt;    
+ &lt;font size="5"&gt; 並且有版次可進行改版的順序檢視‧&lt;/font&gt;    
+  
+&lt;/head&gt;
+  
+  &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/6thaiPmWWqw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+  
+  &lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/onshape.html)
+&lt;/small&gt;</t>
+<t tx="leo.20200623161607.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623161607.2">&lt;head&gt;  
+  &lt;font size="7"&gt;CoppeliaSim&lt;/font&gt;    
+  
+  &lt;font size="5"&gt;可在CoppeliaSim中進行模型的動態模擬分析，可藉由程式控制模型馬達，&lt;/font&gt;    
+ &lt;font size="5"&gt; 可以在虛擬環境中進行動態模擬測試達到最佳化設計‧&lt;/font&gt;    
+  
+   &lt;font size="5"&gt; 此影片是藉由onshape得到圖檔後轉入CoppeliaSim‧&lt;/font&gt;    
+  
+&lt;/head&gt;
+  
+  &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/mg_syxl1w64" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+  
+  &lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/CoppeliaSim.html)
+&lt;/small&gt;
+
+</t>
+<t tx="leo.20200623162138.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623162138.2">&lt;head&gt;  
+  &lt;font size="7"&gt;Remote API&lt;/font&gt;    
+  
+  &lt;font size="5"&gt;CoppeliaSim 下的 Remote API 設定&lt;/font&gt;    
+&lt;font size="5"&gt;檢查是否有以下三個檔案&lt;/font&gt;    
+  
+ &lt;/head&gt;
+
+* sim.py
+* simConst.py
+* remoteApi.dll, remoteApi.dylib or remoteApi.so (depending on your target platform)‧
+  
+  
+  &lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/Remote%20API.html)
+&lt;/small&gt;
+
+</t>
+<t tx="leo.20200623162750.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623162750.2">&lt;head&gt;  
+  &lt;font size="7"&gt;Google + Domain API&lt;/font&gt;    
+  
+  &lt;font size="6"&gt;Google + Domain API 導入&lt;/font&gt;    
+ &lt;font size="6"&gt; OAuth 2.0  設定&lt;/font&gt;    
+  
+   &lt;font size="5"&gt; 此影片是Google + Domain API 導入‧OAuth 2.0  設定‧&lt;/font&gt;    
+  
+&lt;/head&gt;
+  
+  &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/ZVEqJiweTdk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+  
+  &lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/Google%20+%20Domain%20API.html)
+&lt;/small&gt;
+</t>
+<t tx="leo.20200623163039.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623163039.2">&lt;head&gt;  
+  &lt;font size="7"&gt;Virtualbox&lt;/font&gt;    
+  
+  &lt;font size="5"&gt;在Virtualbox中的網路設定以及Port號設定&lt;/font&gt;    
+ &lt;font size="5" &gt;1.設定網路連線&lt;/font&gt;   
+  &lt;font size="5" &gt;2.Virtualbox中的Port號設定&lt;/font&gt;   
+   &lt;font size="5" &gt;3.開啟虛擬主機中的cd2020pj1對應網站&lt;/font&gt;   
+
+&lt;/head&gt;
+  
+  
+  &lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/Ubuntu%2020.04%20Virtualbox.html)
+&lt;/small&gt;
+
+ &lt;small&gt;
+ [問題解決](https://s40723147.github.io/cd2020/content/%E5%95%8F%E9%A1%8C%E8%A7%A3%E6%B1%BA.html)
+&lt;/small&gt;
+
+</t>
+<t tx="leo.20200623164129.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623164129.2">&lt;head&gt;  
+  &lt;font size="7"&gt;cmsimde&lt;/font&gt;    
+  &lt;font size="5"&gt;如何更新子模組:更新submodule下的子模組&lt;/font&gt;    
+&lt;font size="5"&gt;目的是為了更新倉儲中缺失的submodule狀態下的子模組&lt;/font&gt; 
+&lt;/head&gt;
+```
+git submodule init
+git submodule update
+```
+  &lt;iframe width="400" height="250" src="https://www.youtube.com/embed/AXbY-toPl9Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+  
+  &lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/cmsimde.html)
+&lt;/small&gt;
+
+</t>
+<t tx="leo.20200623164511.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623164511.2">&lt;head&gt;  
+  &lt;font size="7"&gt;如何將submodule下的子模組刪除&lt;/font&gt;    
+  &lt;font size="4"&gt;1.刪除子模組目錄下全部檔案&lt;/font&gt;   
+&lt;font size="4"&gt;2.刪除目錄中.gitmodules中的子模組相關條件&lt;/font&gt;   
+&lt;font size="4"&gt;3.刪除.git/config中子模組的相關條件&lt;/font&gt;   
+&lt;font size="4"&gt;4.刪除.git/module中的子模組目錄 只需刪掉要刪掉的那個目錄&lt;/font&gt;   
+&lt;font size="4"&gt;5.git rm --cached cmsimde 刪除cmsimde&lt;/font&gt;    
+&lt;/head&gt;
+```
+git rm --cached cmsimde 
+```</t>
+<t tx="leo.20200623164907.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623164907.2">&lt;head&gt;  
+  &lt;font size="7"&gt;操作影片&lt;/font&gt;    
+&lt;/head&gt;
+  &lt;iframe width="600" height="430" src="https://www.youtube.com/embed/AXbY-toPl9Q" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+  
+  &lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/cmsimde.html)
+&lt;/small&gt;
+
+</t>
+<t tx="leo.20200623165053.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623165053.2">&lt;head&gt;  
+  &lt;font size="7"&gt;OBS使用操作以及youtube串流直播&lt;/font&gt;    
+    &lt;font size="5"&gt;以下為youtube串流直播記錄檔&lt;/font&gt;   
+&lt;/head&gt;
+  &lt;iframe width="300" height="200" src="https://www.youtube.com/embed/l_cT2dYYptw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+  
+&lt;iframe width2="300" height="200" src="https://www.youtube.com/embed/cPfQ519Ns5g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen&gt;&lt;/iframe&gt;
+  
+  
+  &lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/week.html)
+&lt;/small&gt;
+</t>
+<t tx="leo.20200623165658.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623165658.2">&lt;head&gt;  
+  &lt;font size="7"&gt;每周歷程記錄week&lt;/font&gt;    
+    &lt;font size="6"&gt;將期中考過後每周的歷程記錄下來能夠更明確的回憶內容&lt;/font&gt;   
+&lt;/head&gt;
+
+  
+  
+  &lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/week.html)
+&lt;/small&gt;
+</t>
+<t tx="leo.20200623165941.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200623165941.2">&lt;head&gt;  
+  &lt;font size="7"&gt;課堂筆記&lt;/font&gt;    
+ &lt;font size="5"&gt;HTTP 與 HTTPS&lt;/font&gt;   
+ &lt;font size="5"&gt;SSL協定&lt;/font&gt;   
+ &lt;font size="5"&gt;Dart&lt;/font&gt;   
+ &lt;font size="5"&gt;python&lt;/font&gt;   
+  &lt;font size="5"&gt;OBS串流直播問題&lt;/font&gt;   
+ &lt;font size="5"&gt;都能夠在此頁找到答案&lt;/font&gt;   
+&lt;/head&gt;
+ 
+  
+  &lt;small&gt;
+ [對應網站](https://s40723147.github.io/cd2020/content/%E8%AA%B2%E5%A0%82%E7%AD%86%E8%A8%98.html)
+&lt;/small&gt;
 </t>
 </tnodes>
 </leo_file>
